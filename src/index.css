@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100, "YTLC" 500;
+}
+
+@layer components {
+  .paragraph {
+    @apply text-sm sm:text-lg font-bold py-2;
+  }
+
+  .span {
+    @apply text-sm sm:text-lg font-light;
+  }
+}
